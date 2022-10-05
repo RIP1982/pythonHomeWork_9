@@ -1,7 +1,6 @@
 from data import *
 
-
-def game_control_exit(event, mas):
+def game_play(event, mas):
     for row in range(3):
         for column in range(3):
             if mas[row][column] == 'x':
