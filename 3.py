@@ -3,7 +3,6 @@
 # будут соответствовать правилам задания ключей в словарях.
 
 from random import randint
-
 def to_dict(lst):
     some_dict = {element: element for element in lst}
     return some_dict
